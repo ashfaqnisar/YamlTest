@@ -16,7 +16,6 @@ jobs:
       run: |
         yarn install
         yarn build
-        serve -s build 
         
     - name: List output files
       run: ls
